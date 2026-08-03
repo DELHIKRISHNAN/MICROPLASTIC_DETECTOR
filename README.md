@@ -49,6 +49,7 @@ An automated reporting tool that generates ISO 5887 compliant, print-ready envir
 
 ### 5. AI Integrated Chatbot
 ![AI Integrated Chatbot](images/AI_integrated_chatbot.png)
+
 A dedicated interface for conversing with an integrated AI assistant. It allows users to ask questions, explore insights, and delve into historical data patterns related to microplastic pollution.
 
 ---
