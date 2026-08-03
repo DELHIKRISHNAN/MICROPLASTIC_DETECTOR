@@ -1,5 +1,3 @@
-
-
 # Microplastic Detection System
 
 <p align="center">
@@ -9,6 +7,10 @@
   <img src="https://img.shields.io/badge/Dataset-4000+_Images-purple.svg" alt="Dataset">
   <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
 </p>
+
+![Prototype](images/image.png)
+
+A compact, battery-powered device for real-time detection and analysis of microplastics in water. It filters and stains samples, captures images, and uses machine learning to automatically count particles, estimate size distribution, and display results instantly via a simple interface.
 
 ## Overview
 
@@ -29,21 +31,25 @@ AI-powered computer vision system for **automated microplastic detection** from 
 
 ## Screenshots & UI Walkthrough
 
-### 1. Environmental Monitoring Dashboard
-![Environmental Monitoring Dashboard](assets/dashboard.png)
+### 1. Main Dashboard
+![Main Dashboard](images/main_dashboard.png)
 The command center for the platform, featuring a global contamination map, active zone tracking, and area risk comparisons. It includes a built-in **AI Research Assistant** that helps analyze current sensor data, identify anthropogenic plastic runoff patterns, and cross-reference findings with historical baseline readings.
 
 ### 2. Live Detection Interface
-![Live Detection Interface](assets/live_detection.png)
+![Live Detection Interface](images/live_detection.png)
 A real-time camera feed powered by our custom **OpenCV + CNN + SVM pipeline**. It instantly processes video streams at ~40ms per frame, identifying and classifying microplastic particles with 94% test accuracy. The interface provides live statistics, model architecture details, and real-time bounding boxes.
 
 ### 3. Analytics & Historical Trends
-![Analytics Dashboard](assets/analytics.png)
+![Analytics Dashboard](images/analyticspage.png)
 A comprehensive analytics dashboard designed for long-term environmental analysis. It visualizes historical contamination trends, total detections across sessions, peak contamination levels, and zone risk distributions using interactive charts and graphs.
 
 ### 4. Institutional Report Generation
-![Report Generation](assets/report_generation.png)
+![Report Generation](images/reportpage.png)
 An automated reporting tool that generates ISO 5887 compliant, print-ready environmental monitoring reports. Operators can easily export session summaries as PDFs, detailing primary detection results, average confidence scores, and contamination levels across tracked zones.
+
+### 5. AI Integrated Chatbot
+![AI Integrated Chatbot](images/AI_integrated_chatbot.png)
+A dedicated interface for conversing with an integrated AI assistant. It allows users to ask questions, explore insights, and delve into historical data patterns related to microplastic pollution.
 
 ---
 
